@@ -1,0 +1,15 @@
+#!/bin/bash
+
+sum() 
+{ 
+echo "hello"
+ret=`expr 2 + 3` 
+ return ret
+}
+
+echo "Enter two numbers"
+read n1
+read n2
+
+n=$( sum ) 
+echo $n

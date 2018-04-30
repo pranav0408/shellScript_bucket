@@ -1,0 +1,69 @@
+  113  touch chap1.txt chap2.txt chap 3.txt chap4.txt chap5.txt chap10.txt chap22.txt chap
+  114  chap3.txt
+  115  touch chap3.txt
+  116  rm 3.txt
+  117  ls *.txt
+  118  ls chap*
+  119  ls chap*.txt
+  120  ls chap?.txt
+  121  ls chap??.txt
+  122  echo chap??.txt
+  123  ls chap[123].txt
+  124  ls chap[1,2,3].txt
+  125  ls chap[1..3].txt
+  126  ls chap[123][123].txt
+  127  ls chap[123][012].txt
+  128  ls chap[0-9].txt
+  129  ls chap[ -9].txt
+  130  ls [a-d]hap[0-9].txt
+  131  ls chap[0-22].*
+  132  ls chap.???
+  133  ls chap[0-9].???
+  134  *.???
+  135  *.???
+  136  ls *.???
+  137  touch Chap12.txt Chap13.txt
+  138  ls chap*.txt
+  139  ls -i *.txt
+  140  ls -i chap*.txt
+  141  ls [chap[CHAP]*.txt
+  143  ls chap[02-9]*.txt
+  144  ls chap[!1].txt
+  145  ls chap[^1].txt
+  146  touch cHap8.txt
+  147  ls [chap[CHAP]*.txt
+  150  ls ch[$ap]*.txt
+  151  ls cha[ap$]*.txt
+  152  ls cha$
+  153  ls ch[ap$]*.txt
+  154  touch chpa.txt
+  155  ls ch[ap$]*.txt
+  156  ls cha[p$].txt
+  157  ls cha[p$]*.txt
+  158  cat > chap13.txt
+  163  grep "LPU" *
+  164  grep "U"$ *
+  165  grep "L"$ *
+  166  grep "L" *
+  167  ls chap[4]$.txt
+  168  ls chap[4$].txt
+  169  ls grep 'U'$ *
+  170  grep 'U'$ *
+  171  ls grep 'U'$ *
+  172  ls| grep 'U'$ *
+  173  grep $"s" *
+  174  grep $'s' *
+  175  grep ^'s' *
+  176  grep 's'^ *
+  177  grep "S"^ *
+  178  grep 'S'^ *
+  179  grep $"S" *
+  180  grep $"s" *
+  181  grep -i $"S" *
+  182  grep $"S*U"$ *
+  183  grep $"S*u"$ *
+  184  grep '^S' *
+  185  grep -i $"s*u"$ *
+]0;pranav@localhost:~/Desktop/ThirdDayScript[pranav@localhost ThirdDayScript]$ exit
+
+Script done on Fri 13 Oct 2017 09:05:30 AM PDT

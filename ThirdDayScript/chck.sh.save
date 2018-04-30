@@ -1,0 +1,21 @@
+#!/bin/bash
+echo "Name of file = $0"
+echo "first parameter = $1"
+echo "second parameter = $2"
+echo "quoted parameter = $*"
+echo "Total parameter = $#"
+
+[pranav@localhost ThirdDayScript]$ ./chck.sh "first second"
+Name of file = ./chck.sh
+first parameter = first second
+second parameter = 
+quoted parameter = first second
+Total parameter = 1
+[pranav@localhost ThirdDayScript]$ ./chck.sh "first second" third
+Name of file = ./chck.sh
+first parameter = first second
+second parameter = third
+quoted parameter = first second third
+Total parameter = 2
+[pranav@localhost ThirdDayScript]$ 
+

@@ -1,0 +1,178 @@
+Script started on Fri 13 Oct 2017 09:05:16 AM PDT
+]0;pranav@localhost:~/Desktop/ThirdDayScript[pranav@localhost ThirdDayScript]$ histoey[K[Kry
+    1  cd Desktop/CA2
+    2  script ca2
+    3  history
+    4  cd temp
+    5  history -r
+    6  cd Desktop/CA2
+    7  script ca2
+    8  hitory
+    9  history
+   10  history | grep chmod
+   11  history | chmod
+   12  history
+   13  cd temp
+   14  history -r
+   15  cd Desktop/CA2
+   16  script ca2
+   17  hitory
+   18  history
+   19  history | grep chmod
+   20  history | chmod
+   26  cd Desktop
+   27  touch file
+   28  nano file.sh
+   29  cat file
+   30  nano file.txt
+   31  cat file
+   32  cat file.sh
+   33  cat ile.txt
+   34  cat file.txt
+   35  rm file.sh
+   36  rm file.txt
+   37  rm file
+   38  nano first.sh
+   39  cat first.sh
+   40  ls -l first.sh
+   41  /first.sh
+   42  ./first.sh
+   43  chmod +x first.sh
+   44  ./first.sh
+   45  nano a.sh
+   46  chmod +x a.sh
+   47  ./a.sh
+   48  nano b.sh
+   49  chmod +x b.sh
+   50  ./b.sh
+   51  vi b.sh
+   52  ./b.sh
+   53  nano c.sh
+   54  chmod +x c.sh
+   55  ./c.sh
+   56  nano d.sh
+   57  chmod +x d.sh
+   58  ./d.sh
+   59  nano d.sh
+   60  ./d.sh
+   61  nano d.sh
+   62  ./d.sh
+   63  nano c.sh
+   64  ./c.sh
+   65  nano d.sh
+   66  ./d.sh
+   67  nano d.sh
+   68  ./d.sh
+   69  clear
+   70  exit
+   71  history
+   72  exit
+   73  cd Desktop
+   74  mkdir SecondDayScript
+   75  cd SecondDayScript
+   76  nano Math.sh
+   77  chmod +x Math.sh
+   78  ./Math.sh
+   79  nano Math.sh
+   80  ./Math.sh
+   81  nano Math.sh
+   82  ,/Math.sh
+   83  ./Math.sh
+   84  nano Math.sh
+   85  ./Math.sh
+   86  nano Math.sh
+   87  ./Math.sh
+   88  nano Math.sh
+   89  ./Math.sh
+   90  nano StrnCat.sh
+   91  ./StrnCat.sh
+   92  chmod +x Strn/cat
+   93  chmod +x StrnCat
+   94  chmod +x StrnCat.sh
+   95  ./StrnCat.sh
+   96  nano StrnCat.sh
+   97  ./StrnCat.sh
+   98  nano StrnCat
+   99  rm StrnCat
+  100  nano StrnCat.sh
+  101  ./StrnCat.sh
+  102  cat Math.sh
+  103  nano Math.sh
+  104  ./StrnCat.sh
+  105  cat StrnCat.sh
+  106  nano StrnCat.sh
+  107  ./strnCat.sh
+  108  ./StrnCat.sh
+  109  nano PassArg.sh
+  110  chmod +x PassArg.sh
+  111  ./PassArg.sh 10 15
+  112  clear
+  113  touch chap1.txt chap2.txt chap 3.txt chap4.txt chap5.txt chap10.txt chap22.txt chap
+  114  chap3.txt
+  115  touch chap3.txt
+  116  rm 3.txt
+  117  ls *.txt
+  118  ls chap*
+  119  ls chap*.txt
+  120  ls chap?.txt
+  121  ls chap??.txt
+  122  echo chap??.txt
+  123  ls chap[123].txt
+  124  ls chap[1,2,3].txt
+  125  ls chap[1..3].txt
+  126  ls chap[123][123].txt
+  127  ls chap[123][012].txt
+  128  ls chap[0-9].txt
+  129  ls chap[ -9].txt
+  130  ls [a-d]hap[0-9].txt
+  131  ls chap[0-22].*
+  132  ls chap.???
+  133  ls chap[0-9].???
+  134  *.???
+  135  *.???
+  136  ls *.???
+  137  touch Chap12.txt Chap13.txt
+  138  ls chap*.txt
+  139  ls -i *.txt
+  140  ls -i chap*.txt
+  141  ls [chap[CHAP]*.txt
+  143  ls chap[02-9]*.txt
+  144  ls chap[!1].txt
+  145  ls chap[^1].txt
+  146  touch cHap8.txt
+  147  ls [chap[CHAP]*.txt
+  150  ls ch[$ap]*.txt
+  151  ls cha[ap$]*.txt
+  152  ls cha$
+  153  ls ch[ap$]*.txt
+  154  touch chpa.txt
+  155  ls ch[ap$]*.txt
+  156  ls cha[p$].txt
+  157  ls cha[p$]*.txt
+  158  cat > chap13.txt
+  163  grep "LPU" *
+  164  grep "U"$ *
+  165  grep "L"$ *
+  166  grep "L" *
+  167  ls chap[4]$.txt
+  168  ls chap[4$].txt
+  169  ls grep 'U'$ *
+  170  grep 'U'$ *
+  171  ls grep 'U'$ *
+  172  ls| grep 'U'$ *
+  173  grep $"s" *
+  174  grep $'s' *
+  175  grep ^'s' *
+  176  grep 's'^ *
+  177  grep "S"^ *
+  178  grep 'S'^ *
+  179  grep $"S" *
+  180  grep $"s" *
+  181  grep -i $"S" *
+  182  grep $"S*U"$ *
+  183  grep $"S*u"$ *
+  184  grep '^S' *
+  185  grep -i $"s*u"$ *
+]0;pranav@localhost:~/Desktop/ThirdDayScript[pranav@localhost ThirdDayScript]$ exit
+
+Script done on Fri 13 Oct 2017 09:05:30 AM PDT

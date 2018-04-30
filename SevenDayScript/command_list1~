@@ -1,0 +1,89 @@
+  640  alias l='ls -l'
+  641  l
+  642  unalias
+  643  unalias l
+  644  alias l='pwd'
+  645  l
+  646  cat>name
+  647  sort name
+  648  man sort
+  649  sort name> sort_name
+  650  sort -o sort_n name
+  651  sort -r name
+  652  cat>>name
+  653  sort nme
+  654  sort name
+  655  sort -n name
+  656  sort -nr name
+  657  sort -k 2 file1
+  658  sort -k 2 name
+  659  nano  name
+  660  sort -k 2 name
+  661  nano  name
+  662  sort -k 2 name
+  663  nano name
+  664  nano name2
+  665  sort -u name2
+  666  nano name2
+  667  sort -u name2
+  668  nano month
+  669  sort -M month
+  670  nano month1
+  671  sort month1
+  672  sort -r month1
+  673  sort -n month1
+  674  man sort
+  675  sort -f month1
+  676  sort -f name
+  677  sort month1
+  678  nano month1
+  679  sort month1
+  680  sort -f month1
+  681  echo 'anything' | cut -c 3
+  682  echo 'anything' | cut -c 4-8
+  683  echo 'anything' | cut -c 4,8
+  684  echo 'hi anything' | cut -c 2-10
+  685  nano city
+  686  nano city
+  687  nano city
+  688  cut -d ',' -f 2 city
+  689  nano city
+  690  cut -d ',' -f 2 city
+[pranav@localhost SevenDayScript]$ paste name city
+pranav     utkarsh      hi,Varanasi,
+tejeswar   pratyush     hi,Ballia,
+1.pranav   2.utkarsh    hi,Lucknow,
+3.tejeswar 4.pratyush   hello,Delhi,
+        hello,Jalandhar,
+[pranav@localhost SevenDayScript]$ paste -s name city
+pranav     utkarsh      tejeswar   pratyush     1.pranav   2.utkarsh    3.tejeswar 4.pratyush
+hi,Varanasi,    hi,Ballia,      hi,Lucknow,     hello,Delhi,    hello,Jalandhar,
+[pranav@localhost SevenDayScript]$ paste -d '|' name city
+pranav     utkarsh|hi,Varanasi,
+tejeswar   pratyush|hi,Ballia,
+1.pranav   2.utkarsh |hi,Lucknow,
+3.tejeswar 4.pratyush|hello,Delhi,
+|hello,Jalandhar,
+[pranav@localhost SevenDayScript]$ paste -d '|,' name city city
+pranav     utkarsh|hi,Varanasi,,hi,Varanasi,
+tejeswar   pratyush|hi,Ballia,,hi,Ballia,
+1.pranav   2.utkarsh |hi,Lucknow,,hi,Lucknow,
+3.tejeswar 4.pratyush|hello,Delhi,,hello,Delhi,
+|hello,Jalandhar,,hello,Jalandhar,
+
+[pranav@localhost SevenDayScript]$ touch a
+[pranav@localhost SevenDayScript]$ ls -l a
+-rw-rw-r-- 1 pranav pranav 0 Nov 10 08:18 a
+[pranav@localhost SevenDayScript]$ ln a 1
+[pranav@localhost SevenDayScript]$ ls -l 1
+-rw-rw-r-- 2 pranav pranav 0 Nov 10 08:18 1
+[pranav@localhost SevenDayScript]$ ls -l 2
+ls: 2: No such file or directory
+
+[pranav@localhost SevenDayScript]$ ls -l a
+-rw-rw-r-- 2 pranav pranav 0 Nov 10 08:18 a
+[pranav@localhost SevenDayScript]$ ln 1 2
+[pranav@localhost SevenDayScript]$ ls -l 2
+-rw-rw-r-- 3 pranav pranav 0 Nov 10 08:18 2 
+
+
